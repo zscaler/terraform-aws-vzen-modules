@@ -10,9 +10,9 @@ For China marketplace deployments, #TO-DO
 
 | AWS Cloud                  | Product Code              |  Version                                       |
 |:--------------------------:|:-------------------------:|:----------------------------------------------:|
-| aws (Commercial)           | 7mzoi13353qz115eaksatb0yp |  vzen42.422701.161(Latest - as of March, 2025) |
-| aws-us-gov (US Government) | #to-do                    | -                                              |
-| aws-cn (China)             | #to-do                    | -                                              |
+| aws (Commercial)           | 7mzoi13353qz115eaksatb0yp |      vzen42.192(Latest - as of Nov, 2025)      |
+| aws-us-gov (US Government) | 7mzoi13353qz115eaksatb0yp |      vzen42.192(Latest - as of Nov, 2025)      |
+| aws-cn (China)             | #to-do                    |                       -                        |
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
