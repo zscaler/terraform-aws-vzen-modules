@@ -41,7 +41,10 @@ variable "vzen_vm_instance_type" {
       var.vzen_vm_instance_type == "m6i.2xlarge" ||
       var.vzen_vm_instance_type == "m7i.2xlarge" ||
       var.vzen_vm_instance_type == "m8i.2xlarge" ||
-      var.vzen_vm_instance_type == "r5.2xlarge"
+      var.vzen_vm_instance_type == "r5.2xlarge" ||
+      var.vzen_vm_instance_type == "r6i.2xlarge" ||
+      var.vzen_vm_instance_type == "r7i.2xlarge" ||
+      var.vzen_vm_instance_type == "r8i.2xlarge"
     )
     error_message = "Input vzen_vm_instance_type must be set to an approved vm instance type."
   }
