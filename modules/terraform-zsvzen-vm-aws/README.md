@@ -61,7 +61,7 @@ No modules.
 | <a name="input_mgmt_subnet_id"></a> [mgmt\_subnet\_id](#input\_mgmt\_subnet\_id) | VZEN EC2 Instance management subnet id | `list(string)` | n/a | yes |
 | <a name="input_service_subnet_id"></a> [service\_subnet\_id](#input\_service\_subnet\_id) | VZEN EC2 Instance service subnet id | `list(string)` | n/a | yes |
 | <a name="input_instance_key"></a> [instance\_key](#input\_instance\_key) | SSH Key for instances | `string` | n/a | yes |
-| <a name="input_vzen_vm_instance_type"></a> [vzen\_vm\_instance\_type](#input\_vzen\_vm\_instance\_type) | VZEN Instance Type | `string` | `"m5.2xlarge"` | no |
+| <a name="input_vzen_vm_instance_type"></a> [vzen\_vm\_instance\_type](#input\_vzen\_vm\_instance\_type) | VZEN Instance Type | `string` | `"r5.2xlarge"` | no |
 | <a name="input_iam_instance_profile"></a> [iam\_instance\_profile](#input\_iam\_instance\_profile) | IAM instance profile ID assigned to VZEN | `list(string)` | n/a | yes |
 
 ## Outputs

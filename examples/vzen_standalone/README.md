@@ -100,7 +100,7 @@ From vzen_standalone execute:
 | aws_region | AWS region where VZEN resources will be deployed | string | "us-west-2" | yes |
 | vzen_count | The number of VZEN EC2 Instances | number | 2 | NO |
 | vzen_mgmt_sg_allowed_ssh_ips | To allow SSH to VZEN instances from a particular VM | list(string) | ["10.1.0.0/16"] | NO |
-| vzen_vm_instance_type | AWS EC2 Instance size selection | string | "m5.2xlarge" | NO |
+| vzen_vm_instance_type | AWS EC2 Instance size selection | string | "r5.2xlarge" | NO |
 | brownfield_deployment | To reuse any existing VPC for deployment | string | false | NO |
 | byo_vpc_id | To reuse any existing VPC for deployment (ID) | string | "" | NO |
 | byo_igw_id | To reuse any existing Internet Gateway (ID) | string | "" | NO |
