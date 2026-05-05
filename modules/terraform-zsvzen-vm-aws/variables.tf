@@ -34,7 +34,7 @@ variable "instance_key" {
 variable "vzen_vm_instance_type" {
   type        = string
   description = "VZEN Instance Type"
-  default     = "r5.2xlarge"
+  default     = "r7i.2xlarge"
   validation {
     condition = (
       var.vzen_vm_instance_type == "m5.2xlarge" ||

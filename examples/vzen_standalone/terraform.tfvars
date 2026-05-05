@@ -37,9 +37,9 @@
 #############################################################################################
 ## VZEN AWS EC2 instance size selection. Specify desired vm size to change.
 ## Allowed Types (64G Variants): "r5.2xlarge", "r6i.2xlarge", "r7i.2xlarge", "r8i.2xlarge"
-## Default: "r5.2xlarge"
+## Default: "r7i.2xlarge"
 
-# vzen_vm_instance_type                      = "r5.2xlarge"
+# vzen_vm_instance_type                      = "r7i.2xlarge"
 
 
 #############################################################################################
