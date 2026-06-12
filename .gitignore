@@ -50,3 +50,4 @@ override.tf.json
 
 # My stuff
 .todo
+.devin/
