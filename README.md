@@ -17,14 +17,13 @@ Use this repository to create the deployment resources required to deploy and op
 
 ## **Prerequisites**
 
-The AWS Terraform scripts leverage Terraform v1.5.0 or newer, which includes full binary and provider support for macOS M1 chips. Terraform
-versions >= 1.5.0, < 2.0.0 are supported.
+The AWS Terraform scripts require Terraform >= 1.5.0. Terraform 1.5+ includes full binary and provider support for macOS M1 chips.
 
--   provider registry.terraform.io/hashicorp/aws v6.x (minimum 6.0)
--   provider registry.terraform.io/hashicorp/random v3.9.x
--   provider registry.terraform.io/hashicorp/local v2.5.x
--   provider registry.terraform.io/hashicorp/null v3.2.x
--   provider registry.terraform.io/providers/hashicorp/tls v4.x
+-   provider registry.terraform.io/hashicorp/aws ~> 6.0
+-   provider registry.terraform.io/hashicorp/random ~> 3.9
+-   provider registry.terraform.io/hashicorp/local ~> 2.5
+-   provider registry.terraform.io/hashicorp/null ~> 3.2
+-   provider registry.terraform.io/providers/hashicorp/tls ~> 4.0
 
 ### **AWS requirements**
 
