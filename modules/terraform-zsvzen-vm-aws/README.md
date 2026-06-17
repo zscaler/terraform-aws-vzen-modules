@@ -19,17 +19,17 @@ For China marketplace deployments, #TO-DO
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.7, < 2.0.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.32 |
-| <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.2.0 |
-| <a name="requirement_null"></a> [null](#requirement\_null) | ~> 3.1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.0, < 2.0.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 6.0 |
+| <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.5 |
+| <a name="requirement_null"></a> [null](#requirement\_null) | ~> 3.2 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5.32 |
-| <a name="provider_null"></a> [null](#provider\_null) | ~> 3.1.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 6.0 |
+| <a name="provider_null"></a> [null](#provider\_null) | ~> 3.2 |
 
 ## Modules
 
@@ -46,6 +46,7 @@ No modules.
 | [aws_eip.eip_management_interface](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) | resource |
 
 | [aws_network_interface.vzen_vm_nic_index_1](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface) | resource |
+| [aws_network_interface_attachment.vzen_vm_nic_index_1_attachment](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface_attachment) | resource |
 | [null_resource.wait_for_service_nics](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
 | [aws_eip.eip_service_interface](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) | resource |
 
