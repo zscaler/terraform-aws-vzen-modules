@@ -46,6 +46,7 @@ No modules.
 | [aws_eip.eip_management_interface](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) | resource |
 
 | [aws_network_interface.vzen_vm_nic_index_1](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface) | resource |
+| [aws_network_interface_attachment.vzen_vm_nic_index_1_attachment](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_interface_attachment) | resource |
 | [null_resource.wait_for_service_nics](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
 | [aws_eip.eip_service_interface](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) | resource |
 

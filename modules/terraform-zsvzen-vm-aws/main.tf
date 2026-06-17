@@ -16,14 +16,8 @@ resource "aws_instance" "vzen_vm" {
     http_tokens            = "required"
   }
 
-  network_interface {
-    device_index         = 0
+  primary_network_interface {
     network_interface_id = aws_network_interface.vzen_vm_nic_index_0[count.index].id
-  }
-
-  network_interface {
-    device_index         = 1
-    network_interface_id = aws_network_interface.vzen_vm_nic_index_1[count.index].id
   }
 
   root_block_device {
@@ -54,6 +48,18 @@ resource "null_resource" "wait_for_vzens" {
   triggers = {
     instance_id = aws_instance.vzen_vm[count.index].id
   }
+}
+
+################################################################################
+# Attach VZEN Service Interface (device index 1) after instance creation
+################################################################################
+resource "aws_network_interface_attachment" "vzen_vm_nic_index_1_attachment" {
+  count                = var.vzen_count
+  instance_id          = aws_instance.vzen_vm[count.index].id
+  network_interface_id = aws_network_interface.vzen_vm_nic_index_1[count.index].id
+  device_index         = 1
+
+  depends_on = [null_resource.wait_for_vzens]
 }
 
 
