@@ -10,7 +10,7 @@
 ## AWS region where VZEN resources will be deployed.
 ## (Default: us-west-2)
 
-aws_region                                 = "us-west-1"
+# aws_region                                 = "us-east-1"
 
 
 #############################################################################################
